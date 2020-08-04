@@ -146,6 +146,8 @@ public class ParameterizablePutHive3QL extends AbstractHive3QLProcessor {
     static {
         List<PropertyDescriptor> _propertyDescriptors = new ArrayList<>();
         _propertyDescriptors.add(HIVE_DBCP_SERVICE);
+        _propertyDescriptors.add(ORIGIN);
+        _propertyDescriptors.add(QUERY);
         _propertyDescriptors.add(BATCH_SIZE);
         _propertyDescriptors.add(QUERY_TIMEOUT);
         _propertyDescriptors.add(CHARSET);
